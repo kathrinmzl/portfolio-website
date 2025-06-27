@@ -20,6 +20,10 @@ h1, h2 {
     color: #184f63; /* dark-blue */
 }
 
+.sharp-corners,
+.sharp-corners * { /* wildcard selector * ensure that all descendant elements get the same styling */
+    border-radius: 0;
+}
 
 /* Header */
 #hero {
