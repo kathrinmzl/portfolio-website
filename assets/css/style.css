@@ -25,6 +25,16 @@ h1, h2 {
     border-radius: 0;
 }
 
+.blue-button {
+    background-color: #1f7798;
+    border: #1f7798;
+}
+
+.blue-button:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+}
+
 /* Header */
 #hero {
     background: url(../images/background.webp) 50% 70%/cover no-repeat #dbdcde; 
